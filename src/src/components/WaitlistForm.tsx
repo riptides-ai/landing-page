@@ -31,7 +31,7 @@ const WaitlistForm = () => {
     setIsSubmitting(true);
     
     try {
-      const response = await fetch('https://formsubmit.co/ajax/your-email@domain.com', {
+      const response = await fetch('https://formsubmit.co/ajax/contact@riptides.ai', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
